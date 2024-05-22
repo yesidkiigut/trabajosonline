@@ -1,5 +1,9 @@
 export function Header() {
     return (
-  <h1>Header</h1>
+      <header className="header">
+          <div className="container">
+            <h1>Trabajos de desarrolladores</h1>
+          </div>
+      </header>
     );
   }
